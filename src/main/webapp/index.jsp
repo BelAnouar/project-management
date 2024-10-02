@@ -16,7 +16,7 @@
 <div class="d-flex "style="height: 100vh">
    
     <div class="sidebar">
-        <img src="./images/logotask.png" alt="logo Page">
+        <img src="../images/logotask.png" alt="logo Page">
         <div class="icon">🚀</div>
         <div class="icon">✔️</div>
         <div class="icon">🛡️</div>

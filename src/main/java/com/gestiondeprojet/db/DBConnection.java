@@ -15,7 +15,7 @@ public class DBConnection {
 
     private DBConnection() {
         try {
-        	Dotenv dotenv = Dotenv.configure().load();
+        	Dotenv dotenv = Dotenv.load();
         	String host = System.getenv("DB_HOST");
         	String port = System.getenv("DB_PORT");
         	String db = System.getenv("DB_NAME");
@@ -42,7 +42,6 @@ public class DBConnection {
     }
 
     public static void main(String[] args) {
-    	System.out.println("Working Directory = " + System.getProperty("user.dir"));
         DBConnection.getInstance().getConnection();
     }
 }
