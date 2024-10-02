@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<div class="container">
+<div class="d-flex "style="height: 100vh">
    
     <div class="sidebar">
         <img src="./images/logotask.png" alt="logo Page">
@@ -28,6 +28,41 @@
         <div class="search-bar">
             <input type="text" placeholder="Search">
         </div>
+        
+            <table class="table table-hover task-table">
+            <thead class="table-dark">
+            <tr>
+                <th>#</th>
+                <th>Task</th>
+                <th>Status</th>
+                <th>Priority</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Complete Dashboard Design</td>
+                <td><span class="badge bg-success">Completed</span></td>
+                <td>High</td>
+                <td><button class="btn btn-primary btn-sm">View</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Fix bugs in login page</td>
+                <td><span class="badge bg-warning">Pending</span></td>
+                <td>Medium</td>
+                <td><button class="btn btn-primary btn-sm">View</button></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Test new API endpoints</td>
+                <td><span class="badge bg-danger">In Progress</span></td>
+                <td>High</td>
+                <td><button class="btn btn-primary btn-sm">View</button></td>
+            </tr>
+            </tbody>
+        </table>
     </div>
 </div>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

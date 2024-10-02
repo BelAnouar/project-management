@@ -8,10 +8,7 @@
             font-family: Arial, sans-serif;
             background-color: #F5F7FA;
         }
-        .container {
-            display: flex;
-            height: 100vh;
-        }
+       
         
         .sidebar {
             width: 80px;
@@ -64,4 +61,10 @@
             padding: 10px;
             border-radius: 20px;
             border: 1px solid #ddd;
+        }
+        .task-table {
+            margin-top: 20px;
+        }
+        .task-table th, .task-table td {
+            vertical-align: middle;
         }
